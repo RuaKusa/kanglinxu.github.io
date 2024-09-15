@@ -8,7 +8,10 @@ redirect_from:
 ---
 Educations
 ======
-Bachelor of Science in Computer Science, Minor in Mathematics, Texas Tech University, expected graduation December 2024, GPA: 4.0
+Texas Tech University, expected graduation December 2024
+* Bachelor of Science in Computer Science
+* Minor in Mathematics
+* GPA: 4.0
 
 Biographies
 ======
