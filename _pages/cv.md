@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Kanglin Xu's CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
