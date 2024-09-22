@@ -44,25 +44,21 @@ Project Experience
 
 Publications
 ======
-  * Rezaei, B., Yari, P., Sanders, S. M., Wang, H., Chugh, V. K., Liang, S., Mostufa, S., Xu, K., Wang, J-P., Gómez-Pastora, J., & Wu, K. (2023). Magnetic nanoparticles: A review on synthesis, characterization, functionalization, and biomedical applications. Small.
-    * https://doi.org/10.1002/smll.202304848
-  * Zou, T., Ding, H., Qian, C., Wang, X., Li, X., Fang, Z., Xu, Y., & Zhu, Y. (2023). Advanced magnetic nanoparticles for enhanced drug delivery and imaging. ACS Applied Nano Materials.
-    * https://doi.org/10.1021/acsanm.3c01936
-  * Chugh, V. K., Liang, S., Yari, P., Wu, K., & Wang, J-P. (2023). Multifunctional nanomaterials for diagnostic and therapeutic applications. Journal of Physics D: Applied Physics.
-    * https://doi.org/10.1088/1361-6463/aceb6f
-  * Haque, A., Alenezi, K. M., Khan, M. S., Wong, W-Y., & Raithby, P. R. (2023). Hybrid nanomaterials for biomedical applications. ACS Applied Bio Materials.
-    * https://doi.org/10.1021/acsabm.3c00592
-  * Chugh, V. K., Liang, S., Yari, P., Wu, K., & Wang, J-P. (2023). Synthesis and characterization of novel magnetic nanoparticles. Physica Scripta.
-    * https://doi.org/10.1088/1402-4896/ace8d1
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
   
-Presentations
+Talks
 ======
-  * Undergraduate Research Conference at Texas Tech University 2023
-    * Topic: Exploring the Effectiveness of Machine Learning Algorithms in Analyzing Cardiac Rhythms
-  * Undergraduate Research Conference at Texas Tech University 2024
-    * Topic: Image Based Deep Learning in ECG Signal
-  * Computer Science Department External Advisory Board Meeting 2024
-    * Topic: Multiagent Deep Deterministic Policy Gradient Based Card game
+  <ul>{% for post in site.talks reversed %}
+    {% include archive-single-talk-cv.html  %}
+  {% endfor %}</ul>
+  
+Teaching
+======
+  <ul>{% for post in site.teaching reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
   
 Professional Memberships / Organizations
 ======
